@@ -1,6 +1,7 @@
 import configparser
 import os
 from sys import platform, exit
+from time import sleep
 
 import timetable as tt
 
@@ -45,24 +46,28 @@ id={id}""")
 
 
 def main():
+	init_ttasbackground()
 	config = get_config(app_path + "/config.ini")
 
-    # fetch pdf
-	tt.fetch_pdf(
-		config["Creds"]["id"],
-		tt.get_date(),
-		tt.get_sturm_session(config["Creds"]["hash"]),
-		app_path + "/tt.pdf"
-	)
-	# convert to png
-	tt.to_image(
-		app_path + "/tt.",
-		config["Creds"]["auth_key"]
-	)
+	while True:
+		# fetch pdf
+		tt.fetch_pdf(
+			config["Creds"]["id"],
+			tt.get_date(),
+			tt.get_sturm_session(config["Creds"]["hash"]),
+			app_path + "/tt.pdf"
+		)
+		# convert to png
+		tt.to_image(
+			app_path + "/tt.",
+			config["Creds"]["auth_key"]
+		)
 
-	# set as background
-	tt.set_as_background(app_path + "/tt.png")
+		# set as background
+		tt.set_as_background(app_path + "/tt.png")
+
+		sleep(1200)
 
 
-init_ttasbackground()
-main()
+if __name__ == "__main__":
+	main()
