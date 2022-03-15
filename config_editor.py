@@ -23,6 +23,7 @@ class Root(tk.Tk):
         self.geometry("500x500")
         self.protocol("WM_DELETE_WINDOW", self.on_close)
 
+        # TODO: add labels
         self.hash_input = tk.Entry(
             self,
         )

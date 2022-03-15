@@ -1,8 +1,8 @@
+# TODO: exe
 import configparser
 import os
 from sys import platform, exit
 from time import sleep
-import tkinter as tk
 
 import timetable as tt
 import config_editor as ce
