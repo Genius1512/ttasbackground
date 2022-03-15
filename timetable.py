@@ -5,7 +5,7 @@ import time as t
 
 def to_image(path, auth_key):
 	"""
-	path without ending, ex.: timetable.
+	path without ending, ex.: "timetable."
 	"""
 	
 	capi.api_secret = auth_key
@@ -17,7 +17,7 @@ def to_image(path, auth_key):
 	).file.save(path + "png")
 
 
-def set_as_background(path):
+def set_as_background(path): # TODO: implement me
 	print("Setting as background")
 
 
@@ -30,9 +30,10 @@ def fetch_pdf(id, time, cookie, path):
 
 
 def get_sturm_session(hash: str):
-	url = f"https://intranet.tam.ch/ksl/rest/ics/type/timetable/date/1642582786/auth/{hash}/calendar.ics"
-	resp = req.get(url)
-	return resp.cookies
+    # URL to replicate: https://intranet.tam.ch/ksl/rest/ics/type/timetable/date/1642582786/auth/gr001@c2lsdmFuLnNjaG1pZHQ=:OGY4NmQxYjExYTM5MDRjNWMwMWMwODZjNmE2OGUxOGQ3NmMwZWY5Mw==/calendar.ics
+    url = f"https://intranet.tam.ch/ksl/rest/ics/type/1642582786/date/1642682786/auth/{hash}/calendar.ics"
+    resp = req.get(url)
+    return resp.cookies
 
 
 def get_date():

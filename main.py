@@ -1,27 +1,38 @@
 import configparser
 import os
+from sys import platform, exit
 
 import timetable as tt
 
 
+app_path = ""
+if "win" in platform:
+	app_path = "" # TODO: insert app_path for windows
+elif "linux" in platform:
+	app_path = "/home/" + os.getenv("USER") + "/.ttasbackground"
+else:
+	print("Your OS is not supported")
+	exit(1)
+
+
 def init_ttasbackground():
-    os.mkdir(".ttasbackground/")  # TODO: point to ~/.ttasbackground
+	try:
+		os.mkdir(app_path)
+	except FileExistsError:
+		pass
 
 
 def get_config(path):
-    if not os.path.exists(path):
-    	make_config(path)
+	if not os.path.exists(path):
+		make_config(path)
 
-    config = configparser.ConfigParser(interpolation=None)
+	config = configparser.ConfigParser(interpolation=None)
 
-    config.read(path)
-    return config
+	config.read(path)
+	return config
 
 
 def make_config(path):
-	if not os.path.exists(os.path.split(path)[1]):
-		init_ttasbackground()
-
 	hash = input("Enter hash: ")
 	auth_key = input("Enter auth key: ")
 	id = input("Enter id: ")
@@ -34,17 +45,23 @@ id={id}""")
 
 
 def main():
-	config = get_config("config.ini")  # TODO: correct path
+	config = get_config(app_path + "/config.ini")
 
-    # TODO: fetch pdf
+    # fetch pdf
 	tt.fetch_pdf(
 		config["Creds"]["id"],
 		tt.get_date(),
-		tt.get_sturm_session(hash),
-		"tt.pdf"
+		tt.get_sturm_session(config["Creds"]["hash"]),
+		app_path + "/tt.pdf"
 	)
-	# TODO: convert to png
+	# convert to png
+	tt.to_image(
+		app_path + "/tt.",
+		config["Creds"]["auth_key"]
+	)
+
 	# TODO: set as background
 
 
+init_ttasbackground()
 main()
