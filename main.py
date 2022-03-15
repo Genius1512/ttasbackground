@@ -2,8 +2,10 @@ import configparser
 import os
 from sys import platform, exit
 from time import sleep
+import tkinter as tk
 
 import timetable as tt
+import config_editor as ce
 
 
 app_path = ""
@@ -34,9 +36,7 @@ def get_config(path):
 
 
 def make_config(path):
-	hash = input("Enter hash: ")
-	auth_key = input("Enter auth key: ")
-	id = input("Enter id: ")
+	hash, auth_key, id = ce.get_config()
 
 	with open(path, "w") as f:
 		f.write(f"""[Creds]
