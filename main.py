@@ -1,4 +1,3 @@
-# TODO: exe
 import configparser
 import os
 from sys import platform, exit
