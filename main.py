@@ -7,7 +7,7 @@ import timetable as tt
 
 app_path = ""
 if "win" in platform:
-	app_path = "" # TODO: insert app_path for windows
+	app_path = os.getenv("appdata").replace("\\", "/") + "/ttasbackground"
 elif "linux" in platform:
 	app_path = "/home/" + os.getenv("USER") + "/.ttasbackground"
 else:
