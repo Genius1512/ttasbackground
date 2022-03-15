@@ -60,7 +60,8 @@ def main():
 		config["Creds"]["auth_key"]
 	)
 
-	# TODO: set as background
+	# set as background
+	tt.set_as_background(app_path + "/tt.png")
 
 
 init_ttasbackground()

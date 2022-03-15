@@ -1,6 +1,7 @@
 import requests as req
 import convertapi as capi
 import time as t
+from sys import platform
 
 
 def to_image(path, auth_key):
@@ -17,8 +18,11 @@ def to_image(path, auth_key):
 	).file.save(path + "png")
 
 
-def set_as_background(path): # TODO: implement me
-	print("Setting as background")
+def set_as_background(path):
+    if platform == "linux":
+        pass
+    else:
+        __import__("ctypes").windll.user32.SystemParametersInfoW(20, 0, path, 2)
 
 
 def fetch_pdf(id, time, cookie, path):
