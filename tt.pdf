@@ -1,0 +1,135 @@
+<!DOCTYPE html><html translate="no">
+<head>
+<meta http-equiv="expires" content="0"/>
+<meta http-equiv="cache-control" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-store"/>
+<meta http-equiv="cache-control" content="must-revalidate"/>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="Zentrale Schulverwaltungsplattform Intranet Sek II">
+<meta name="viewport" content="width=device-width">
+<meta name="robots" content="noindex"/>
+<meta name="google" content="notranslate"/>
+<title>Intranet Sek II</title>
+<base href="/ksl/"/>
+<link href="/themes/default/img/xfavicon.png.pagespeed.ic.ycawFxaroA.png" rel="icon" type="image/png">
+<link href="/A.themes,,_default,,_css,,_intranet.reset.css,,qv==17+lib,,_kendoui,,_styles,,_kendo.common.min.css,,qv==17+themes,,_default,,_css,,_intranet.screen.css,,qv==17,Mcc.XVvUmmqN_o.css.pagespeed.cf.lIWYKLy-Id.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/themes/default/css/A.intranet.print.css,qv=17.pagespeed.cf.cy6uaoucTA.css" media="print" rel="stylesheet" type="text/css">
+<link href="/namespace/A.lo,,_css,,_lo.screen.css,,qv==17+sr,,_css,,_sr.screen.css,,qv==17,Mcc.6T2-PXWz24.css.pagespeed.cf.T5o8LFJlgB.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/namespace/wf2/css/A.wf2.screen.css,qv=17.pagespeed.cf.p0q7urR1U6.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/themes/ksl/css/A.theme.css,qv=17.pagespeed.cf.jWhByP6CTZ.css" media="screen" rel="stylesheet" type="text/css"><script>var csrfToken='dd3df2j1ef1f4fd33336335336933323564323269356130346365623132356734393564633533326df9c4cf0d2ch9e5c';</script>
+<script>console.log=function(){};var env='production',school='ksl',baseUrl='/',module='default',showPager=1,controller='print';</script>
+<script src="/lib/kendoui/js/jquery.min.js,qv=17.pagespeed.jm.nVuL3pHWJm.js"></script>
+<script src="/lib/jquery-ui.min.js,qv=17.pagespeed.jm.cLr2D8jchE.js"></script>
+<script src="/lib/modernizr.min.js,qv=17.pagespeed.jm.FaBsPcAWd7.js"></script>
+<script src="/lib/kendoui/js/kendo.web.min.js,qv=17.pagespeed.jm.spoT77qRLO.js"></script>
+<script src="/lib,_promise-polyfill.min.js,qv==17+static,_js,_prototypes.js,qv==17+lib,_plugins,_js,_autoloaded,_jquery.blockUI.min.js,qv==17+lib,_plugins,_js,_autoloaded,_jquery.idletimer.0.8.092209.min.js,qv==17+lib,_plugins,_js,_autoloaded,_jquery.placeholder.min.js,qv==17+lib,_plugins,_js,_autoloaded,_jquery.stickInParent.min.js,qv==17+lib,_plugins,_js,_autoloaded,_jquery.throttledresize.2012.min.js,qv==17+lib,_plugins,_js,_autoloaded,_jquery.transit.min.js,qv==17+static,_js,_kendo,_kendo.settings.js,qv==17+static,_js,_intranet.js,qv==17+static,_js,_intranet.clientServer.js,qv==17.pagespeed.jc.VrdpZQG0Hf.js"></script><script>eval(mod_pagespeed_7LDqVKfE8t);</script>
+<script>eval(mod_pagespeed_yRKxeCy_AI);</script>
+<script>eval(mod_pagespeed_vzSs2_KH6g);</script>
+<script>eval(mod_pagespeed_cEIxjSzG9Y);</script>
+<script>eval(mod_pagespeed_mnY6hd6qv6);</script>
+<script>eval(mod_pagespeed_KBrRtnkVrn);</script>
+<script>eval(mod_pagespeed_tlUOd2MA6x);</script>
+<script>eval(mod_pagespeed_u_3mHiW86y);</script>
+<script>eval(mod_pagespeed_GMmh$gE9j0);</script>
+<script>eval(mod_pagespeed_HTJh75x03J);</script>
+<script>eval(mod_pagespeed_wHy4$8rMp_);</script>
+<script src="/static/js/intranet.dateTime.js,qv==17+intranet.events.js,qv==17+intranet.globalSearch.js,qv==17+intranet.objects.js,qv==17+intranet.strings.js,qv==17+intranet.timing.js,qv==17+ui,_intranet.ui.js,qv==17+ui,_intranet.ui.dialog.js,qv==17+ui,_intranet.ui.init.js,qv==17+ui,_intranet.ui.kendo.js,qv==17+ui,_intranet.ui.navigation.js,qv==17+ui,_intranet.ui.notification.js,qv==17+ui,_intranet.ui.password.js,qv==17.pagespeed.jc.adQF_K0-cP.js"></script><script>eval(mod_pagespeed_bw41l7rt0z);</script>
+<script>eval(mod_pagespeed_po9FSMRrIm);</script>
+<script>eval(mod_pagespeed_RzirQy$i_J);</script>
+<script>eval(mod_pagespeed_jYww9Zsc7s);</script>
+<script>eval(mod_pagespeed_prJov5oLZ3);</script>
+<script>eval(mod_pagespeed__2ui7Zjsyj);</script>
+<script>eval(mod_pagespeed_bq_$z$YnUA);</script>
+<script>eval(mod_pagespeed_IuSBB9e$9p);</script>
+<script>eval(mod_pagespeed_hnPoM5aoC6);</script>
+<script>eval(mod_pagespeed_n213BuGz1q);</script>
+<script>eval(mod_pagespeed_Ml5UF0cHdW);</script>
+<script>eval(mod_pagespeed_BZngKM_xpV);</script>
+<script>eval(mod_pagespeed_NBK6tqxl26);</script>
+<script src="/static,_js,_ui,_intranet.ui.dialog.messages.js,qv==17+static,_js,_ui,_intranet.ui.kendo.grid.template.js,qv==17+lib,_kendoui,_js,_cultures,_kendo.culture.de-CH.min.js.pagespeed.jc.QDbiiOY2L6.js"></script><script>eval(mod_pagespeed_7HIh_LUP_d);</script>
+<script>eval(mod_pagespeed_2LRV0K4lI3);</script>
+<script>eval(mod_pagespeed_nlAT9iQTtz);</script>
+<script>kendo.culture('de-CH');</script>
+<script src="/namespace/lo,_js,_login.js,qv==17+lo,_js,_login.sms.js,qv==17+wf2,_js,_process2.js,qv==17+wf2,_js,_workflow2.js,qv==17.pagespeed.jc.wm2G6L7jwf.js"></script><script>eval(mod_pagespeed_5S1RsLNvcy);</script>
+<script>eval(mod_pagespeed_HG55wOjXau);</script>
+<script>eval(mod_pagespeed_j$gqVn8kGM);</script>
+<script>eval(mod_pagespeed_j9hpWMH6RQ);</script>
+<script>intranet.login.idleTime=600000;</script> <!--[if IE]>
+        <link type="text/css" rel="stylesheet" media="screen" href="/themes/default_ie/css/basic_ie.css"><![endif]-->
+<!--[if lt IE 10]>
+        <link type="text/css" rel="stylesheet" media="screen" href="/themes/default_ie/css/basic_ie9.css"><![endif]-->
+<!--[if lt IE 9]>
+        <link type="text/css" rel="stylesheet" media="screen" href="/themes/default_ie/css/basic_ie8.css"><![endif]-->
+</head>
+<body>
+<div id="subrole-content"></div>
+<div id="app" style="display:none;">
+<div id="header">
+<div id="logo">
+<a href="/ksl/">
+KSL </a>
+</div>
+</div>
+<div id="content"><div id="logo-login" title="Kantonsschule Limmattal">
+<a href="/ksl/">
+KSL </a>
+</div>
+<div id="login-dialog" class="dialog col-2 hidden">
+<form name="login-form" class="login-form showForm" action="/ksl/print/pdf-timetable?filter=student&amp;id=4020344&amp;start=2022-03-14&amp;table=week&amp;daysviewed=week&amp;reservations=0" method="post" accept-charset="UTF-8">
+<div>
+<h2>Intranet Anmeldung</h2>
+<fieldset>
+<input type="hidden" name="hash" value="62309940914399.55088307"/>
+<input type="hidden" name="loginschool" class="login--school-login--login-school" value="ksl"/>
+<label for="loginuser" class="hidden">Benutzername</label>
+<input type="text" id="loginuser" name="loginuser" class="login--school-login--login-user" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Benutzername"/>
+<label for="loginpassword" class="hidden">Passwort</label>
+<input type="password" autocomplete="off" name="loginpassword" id="loginpassword" class="login--school-login--login-password" placeholder="Passwort"/>
+</fieldset>
+<button type="submit" class="login--school-login--login-button">
+Login </button>
+</div>
+<div>
+<h2>Zentrale Anmeldung</h2>
+<p>
+<strong>
+Mit dieser Anmeldung werden Sie auf allen Diensten der zentralen Plattform Sek II angemeldet. </strong>
+</p>
+<p>
+Bitte benutzen Sie diese Anmeldung aus Sicherheitsgründen nur auf dem eigenen Computer. Erst mit Schliessen des Browsers sind Sie von allen Diensten abgemeldet. </p>
+<div class="login-shibboleth">
+<a href="/auth/oidc">Zentral anmelden</a>
+</div>
+</div>
+</form>
+</div>
+<div id="footer">
+<div class="left">
+<a href="http://status.tam.ch" target="_blank">Systemstatus</a> |
+<a href="https://help.mba.zh.ch" target="_blank">
+Hilfe </a>
+<span class="date">
+| &copy; 2012-2022 <a href="https://www.gyselroth.com" target="_blank">gyselroth&trade;</a>
+</span>
+</div>
+<div class="right">
+Version: 2.0.0| 15.03.2022 </div>
+</div>
+<script>$('div#header').hide();$(function(){intranet.login.init(null,'',{"Mittelschulen":{"kme":{"type":"Mittelschulen","name":"Kantonale Maturit\u00e4tsschule f\u00fcr Erwachsene","short_name":"kme","gui":"1"},"kbw":{"type":"Mittelschulen","name":"Kantonsschule B\u00fcelrain","short_name":"kbw","gui":"1"},"ken":{"type":"Mittelschulen","name":"Kantonsschule Enge","short_name":"ken","gui":"1"},"kfr":{"type":"Mittelschulen","name":"Kantonsschule Freudenberg","short_name":"kfr","gui":"1"},"khp":{"type":"Mittelschulen","name":"Kantonsschule Hohe Promenade","short_name":"khp","gui":"1"},"ksh":{"type":"Mittelschulen","name":"Kantonsschule Hottingen","short_name":"ksh","gui":"1"},"klw":{"type":"Mittelschulen","name":"Kantonsschule Im Lee","short_name":"klw","gui":"1"},"kkn":{"type":"Mittelschulen","name":"Kantonsschule K\u00fcsnacht","short_name":"kkn","gui":"1"},"ksl":{"type":"Mittelschulen","name":"Kantonsschule Limmattal","short_name":"ksl","gui":"1"},"krw":{"type":"Mittelschulen","name":"Kantonsschule Rychenberg","short_name":"krw","gui":"1"},"kst":{"type":"Mittelschulen","name":"Kantonsschule Stadelhofen","short_name":"kst","gui":"1"},"kue":{"type":"Mittelschulen","name":"Kantonsschule Uetikon am See","short_name":"kue","gui":"1"},"kus":{"type":"Mittelschulen","name":"Kantonsschule Uster","short_name":"kus","gui":"1"},"kwi":{"type":"Mittelschulen","name":"Kantonsschule Wiedikon","short_name":"kwi","gui":"1"},"kzi":{"type":"Mittelschulen","name":"Kantonsschule Zimmerberg","short_name":"kzi","gui":"1"},"kzo":{"type":"Mittelschulen","name":"Kantonsschule Z\u00fcrcher Oberland","short_name":"kzo","gui":"1"},"kzu":{"type":"Mittelschulen","name":"Kantonsschule Z\u00fcrcher Unterland","short_name":"kzu","gui":"1"},"kzn":{"type":"Mittelschulen","name":"Kantonsschule Z\u00fcrich Nord","short_name":"kzn","gui":"1"},"krl":{"type":"Mittelschulen","name":"Literargymnasium R\u00e4mib\u00fchl","short_name":"krl","gui":"1"},"krm":{"type":"Mittelschulen","name":"Math.-Naturw. Gymnasium R\u00e4mib\u00fchl","short_name":"krm","gui":"1"},"krr":{"type":"Mittelschulen","name":"Realgymnasium R\u00e4mib\u00fchl","short_name":"krr","gui":"1"},"slk":{"type":"Mittelschulen","name":"Schulleiterkonferenz","short_name":"slk","gui":"1"}},"Berufsfachschulen":{"abs":{"type":"Berufsfachschulen","name":"Allgemeine Berufsschule Z\u00fcrich","short_name":"abs","gui":"1"},"bbz":{"type":"Berufsfachschulen","name":"Baugewerbliche Berufsschule Z\u00fcrich","short_name":"bbz","gui":"1"},"bbw":{"type":"Berufsfachschulen","name":"BBW, Berufsbildungsschule Winterthur","short_name":"bbw","gui":"1"},"bzd":{"type":"Berufsfachschulen","name":"Berufsbildungszentrum Dietikon","short_name":"bzd","gui":"1"},"bfs":{"type":"Berufsfachschulen","name":"Berufsfachschule Winterthur","short_name":"bfs","gui":"1"},"bmz":{"type":"Berufsfachschulen","name":"Berufsmaturit\u00e4tsschule Z\u00fcrich","short_name":"bmz","gui":"1"},"bsb":{"type":"Berufsfachschulen","name":"Berufsschule B\u00fclach","short_name":"bsb","gui":"1"},"dhz":{"type":"Berufsfachschulen","name":"Berufsschule f\u00fcr Detailhandel Z\u00fcrich","short_name":"dhz","gui":"1"},"bsmg":{"type":"Berufsfachschulen","name":"Berufsschule Mode und Gestaltung","short_name":"bsmg","gui":"1"},"bsr":{"type":"Berufsfachschulen","name":"Berufsschule R\u00fcti","short_name":"bsr","gui":"1"},"bzu":{"type":"Berufsfachschulen","name":"Bildungszentrum Uster","short_name":"bzu","gui":"1"},"bzz":{"type":"Berufsfachschulen","name":"Bildungszentrum Z\u00fcrichsee","short_name":"bzz","gui":"1"},"ebz":{"type":"Berufsfachschulen","name":"EB-Z\u00fcrich","short_name":"ebz","gui":"1"},"gbw":{"type":"Berufsfachschulen","name":"Gewerbliche Berufsschule Wetzikon","short_name":"gbw","gui":"1"},"bgz":{"type":"Berufsfachschulen","name":"Schule f\u00fcr Gestaltung Z\u00fcrich","short_name":"bgz","gui":"1"},"lss":{"type":"Berufsfachschulen","name":"Strickhof","short_name":"lss","gui":"1"},"tbz":{"type":"Berufsfachschulen","name":"Technische Berufsschule Z\u00fcrich","short_name":"tbz","gui":"1"},"kvw":{"type":"Berufsfachschulen","name":"Wirtschaftsschule KV Wetzikon","short_name":"kvw","gui":"1"},"zag":{"type":"Berufsfachschulen","name":"Zentrum f\u00fcr Ausbildung im Gesundheitswesen","short_name":"zag","gui":"1"}},"Amt":{"mba":{"type":"Amt","name":"Mittelschul- und Berufsbildungsamt","short_name":"mba","gui":"1"}}});intranet.login.displayLoginWindow(810);});</script>
+</div>
+</div>
+<div id="dialog"></div>
+<noscript>
+<div class="status-message error">
+JavaScript wird ben&ouml;tigt um diese Applikation auszuf&uuml;hren </div>
+</noscript>
+<div id="layout-cookie-error" class="status-message error">
+Cookies m&uuml;ssen aktiviert sein, um diese Applikation zu nutzen. </div>
+<!--[if lt IE 8]><div id="layout-ie-error" class="status-message error">
+    <p>
+        Diese Applikation kann nicht mit einer alten Version von Microsoft Internet Explorer oder dem Kompatibilit&auml;tsmodus gestartet werden. Bitte installieren Sie die aktuelle Version.    </p>
+</div>
+<![endif]--> <script>$('body').attr('id','login');</script>
+</body>
+</html>
