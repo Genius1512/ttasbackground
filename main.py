@@ -45,27 +45,31 @@ id={id}""")
 
 
 def main():
-	init_ttasbackground()
-	config = get_config(app_path + "/config.ini")
+    init_ttasbackground()
+    config = get_config(app_path + "/config.ini")
 
-	while True:
-		# fetch pdf
-		tt.fetch_pdf(
-			config["Creds"]["id"],
-			tt.get_date(),
-			tt.get_sturm_session(config["Creds"]["hash"]),
-			app_path + "/tt.pdf"
-		)
-		# convert to png
-		tt.to_image(
-			app_path + "/tt.",
-			config["Creds"]["auth_key"]
-		)
+    while True:
+        try:
+    		# fetch pdf
+            tt.fetch_pdf(
+    			config["Creds"]["id"],
+    			tt.get_date(),
+    			tt.get_sturm_session(config["Creds"]["hash"]),
+    			app_path + "/tt.pdf"
+    		)
+    		# convert to png
+            tt.to_image(
+    			app_path + "/tt.",
+    			config["Creds"]["auth_key"]
+    		)
+    
+    		# set as background
+            tt.set_as_background(app_path + "/tt.png")
+    
+            sleep(1200)
 
-		# set as background
-		tt.set_as_background(app_path + "/tt.png")
-
-		sleep(1200)
+        except:
+            pass
 
 
 if __name__ == "__main__":
